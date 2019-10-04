@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-
+// uses file redirect for input and output
 namespace MineSweeperAF
 {
     class MineSweeperAF
