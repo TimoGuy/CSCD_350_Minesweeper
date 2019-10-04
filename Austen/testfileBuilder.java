@@ -24,8 +24,11 @@ public class testfileBuilder {
             System.out.println();
             System.out.print("Enter Dimensions, How many columns?: ");
             cols = input.nextInt();
+            
+            System.out.print("Enter percent of mines: ");
+             int percentMines = input.nextInt();
 
-            makeMap(rows,cols);
+            makeMap(rows,cols, percentMines);
 
             System.out.println("add another map? 0/1");
            // goInt = input.next();
@@ -39,14 +42,14 @@ public class testfileBuilder {
 
     }
 
-    public static void makeMap(int rows, int cols){
+    public static void makeMap(int rows, int cols, int percentage){
 
 
 
         outputFile.println(rows+" "+cols);
 
         Random r= new Random();
-        int percentage=34;
+        
 
         for (int i =0; i<rows; i++){
 
