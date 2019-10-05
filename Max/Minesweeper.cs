@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// Max Iniguez, October 3rd 2019
+
 namespace Minesweeper
 {
     class Program
