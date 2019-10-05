@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Timothy Bennett, 10-4-2019
+using System;
 using System.Collections.Generic;
 
 namespace CSCD_Minesweeper
